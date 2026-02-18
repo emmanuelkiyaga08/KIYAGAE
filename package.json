@@ -1,0 +1,1 @@
+{\n  "dependencies": {\n    "express": "^4.18.2",\n    "cors": "^2.8.5",\n    "dotenv": "^16.0.3",\n    "@google-ai/generative-ai": "^1.0.0"\n  }\n}
