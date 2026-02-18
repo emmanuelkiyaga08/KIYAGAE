@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Learning Assistant - Google Gemini AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Learning Assistant</h1>
+        <p>Powered by Google Gemini AI</p>
+    </header>
+    <main>
+        <section id="features">
+            <h2>Features</h2>
+            <div id="notes">
+                <h3>Notes</h3>
+                <textarea placeholder="Write your notes here..."></textarea>
+            </div>
+            <div id="summaries">
+                <h3>Summaries</h3>
+                <button id="generate-summary">Generate Summary</button>
+                <div id="summary-output"></div>
+            </div>
+            <div id="mini-tutor">
+                <h3>Mini Tutor</h3>
+                <button id="ask-tutor">Ask the Tutor</button>
+                <div id="tutor-response"></div>
+            </div>
+            <div id="revision-generator">
+                <h3>Revision Generator</h3>
+                <button id="generate-revision">Generate Revision</button>
+                <div id="revision-output"></div>
+            </div>
+            <div id="exam-generator">
+                <h3>Exam Generator</h3>
+                <button id="generate-exam">Generate Exam</button>
+                <div id="exam-output"></div>
+            </div>
+            <div id="audio-recording">
+                <h3>Audio Recording</h3>
+                <button id="start-recording">Start Recording</button>
+                <button id="stop-recording">Stop Recording</button>
+                <audio id="audio-playback" controls></audio>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
